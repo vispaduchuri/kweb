@@ -1,0 +1,36 @@
+{
+
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    // Defines space handling after opening and before closing JSX expression braces.
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+    // Defines space handling after opening and before closing non-empty braces. Requires using TypeScript 2.3.0 or newer in the workspace.
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    // Defines space handling after opening and before closing non-empty brackets.
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+    // Defines space handling after opening and before closing non-empty parenthesis.
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+    // Defines space handling after opening and before closing template string braces.
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+
+    "files.associations": {
+      "*.js": "javascriptreact",
+      "**/components/icons.js": {
+        "editor.formatOnSave": false,
+        "files.defaultLanguage": "javascriptreact",
+      }
+    },
+    "extensions": {
+      "recommendations": [
+        "vsc-nvm",
+        "eg2.tslint",
+        "dbaeumer.vscode-eslint",
+        "msjsdiag.debugger-for-chrome"
+      ]
+    }
+
+  }
